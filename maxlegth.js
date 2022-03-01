@@ -15,20 +15,20 @@ function findLongestWord(list) {
   let maxWord = 0;
   let index = 0;
 
-  for (let i = 0; i < avengers.length; i++) {
+  for (let i = 0; i < list.length; i++) {
     if (maxWord == 0) {
-      maxWord = avengers[i].length;
+      maxWord = list[i].length;
       index = i;
     } else {
-      if (avengers[i].length > maxWord) {
-        maxWord = avengers[i].length;
+      if (list[i].length > maxWord) {
+        maxWord = list[i].length;
         index = i;
       }
     }
   }
 
-  console.log(avengers[index]);
+  console.log(list[index]);
 }
 
 
-findLongestWord(avengers);
+findLongestWord();
