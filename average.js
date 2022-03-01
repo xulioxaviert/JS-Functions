@@ -1,4 +1,4 @@
-// **Iteración #4: Calcular el promedio**
+// **Iteración #4: Calcular el promedio **
 
 //Calcular un promedio es una tarea extremadamente común.Puedes usar este array para probar tu función:
 
