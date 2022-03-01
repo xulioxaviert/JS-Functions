@@ -1,4 +1,4 @@
-// **Iteración #4: Calcular el promedio**
+// **Iteración #4: Calcular el promedio **
 
 //Calcular un promedio es una tarea extremadamente común.Puedes usar este array para probar tu función:
 
@@ -10,6 +10,7 @@ function average(list) {
   let item = list.length;
   
 
+<<<<<<< HEAD
   for (let i = 0; i < list.length; i++) {
     sum = list[i] + sum;
   }
@@ -21,3 +22,6 @@ function average(list) {
 
 average(numbers);
 console.log(avge);
+=======
+}
+>>>>>>> aeea72cd0c0df1041b51495f474a658a4d484218
